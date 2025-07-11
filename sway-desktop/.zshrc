@@ -82,11 +82,11 @@ rbenv
 
 source $ZSH/oh-my-zsh.sh
 
+# Custom shell theme colors
+
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#59635b'
 ZSH_HIGHLIGHT_STYLES[comment]='fg=#3f4741'
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff5e6e'
-#ZSH_HIGHLIGHT_STYLES[]='fg='
-
 
 # User configuration
 
@@ -125,7 +125,8 @@ eval "$(zoxide init zsh)"
 
 eval "$(atuin init zsh --disable-up-arrow)"
 
-# Cursor em bloco fixo
-echo -ne '\e[2 q'  # Define o cursor como bloco
+# Cursor as a block
+echo -ne '\e[2 q'
 
+# Mainly for qt variable and other stuff
 source ~/.profile
