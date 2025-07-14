@@ -130,3 +130,7 @@ echo -ne '\e[2 q'
 
 # Mainly for qt variable and other stuff
 source ~/.profile
+
+# fuzzy find
+
+eval <(fzf --zsh)
