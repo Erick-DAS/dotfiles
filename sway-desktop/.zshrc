@@ -132,5 +132,7 @@ echo -ne '\e[2 q'
 source ~/.profile
 
 # fuzzy find
+eval "$(fzf --zsh)"
 
-eval <(fzf --zsh)
+# vim bindings on terminal
+set -o vi
