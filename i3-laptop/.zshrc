@@ -133,3 +133,11 @@ export GEMINI_API_KEY="AIzaSyAr5ugzduAdboxvRhB1fVBKld0hZq4gXFU"
 
 # vim motions for CLI
 set -o vi
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
+# Created by `pipx` on 2025-07-16 13:06:02
+export PATH="$PATH:/home/das/.local/bin"
