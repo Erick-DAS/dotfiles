@@ -136,3 +136,11 @@ eval "$(fzf --zsh)"
 
 # vim bindings on terminal
 set -o vi
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
+# Created by `pipx` on 2025-07-16 19:51:55
+export PATH="$PATH:/home/das/.local/bin"

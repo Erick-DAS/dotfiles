@@ -6,3 +6,6 @@
  	export XDG_CURRENT_DESKTOP=sway
  	exec sway --unsupported-gpu
  fi
+
+# Created by `pipx` on 2025-07-16 19:51:55
+export PATH="$PATH:/home/das/.local/bin"
