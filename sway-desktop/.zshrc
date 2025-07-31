@@ -144,3 +144,7 @@ eval "$(pyenv init - zsh)"
 
 # Created by `pipx` on 2025-07-16 19:51:55
 export PATH="$PATH:/home/das/.local/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
