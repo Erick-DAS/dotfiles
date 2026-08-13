@@ -142,4 +142,14 @@ export PATH="$PATH:/home/das/.local/bin"
 export PATH="$PATH:/usr/share/texlive"
 
 # fastfetch
-fastfetch --kitty-icat ~/Pictures/blue-stream.gif --logo-padding-top 6
+#fastfetch
+
+ff() {
+  if (( ${COLUMNS:-$(tput cols)} < 100 )); then
+    fastfetch --logo none
+  else
+    fastfetch
+  fi
+}
+
+ff

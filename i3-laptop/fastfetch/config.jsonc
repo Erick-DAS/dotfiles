@@ -30,5 +30,12 @@
     "locale",
     "break",
     "colors"
-  ]
+  ],
+  "logo": {
+    "type": "kitty-icat",
+    "source": "~/Pictures/blue-stream.gif",
+    "width": 45,
+    "height": 22,
+    "padding": { "top": 6, "right": 6 }
+  }
 }
