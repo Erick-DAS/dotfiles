@@ -137,3 +137,9 @@ eval "$(pyenv init - zsh)"
 
 # Created by `pipx` on 2025-07-16 13:06:02
 export PATH="$PATH:/home/das/.local/bin"
+
+# LaTeX
+export PATH="$PATH:/usr/share/texlive"
+
+# fastfetch
+fastfetch --kitty-icat ~/Pictures/blue-stream.gif --logo-padding-top 6
