@@ -4,7 +4,7 @@ The teaser is the figure that appears at the very start of the paper, typically 
 
 ## What a teaser must do
 
-- Appear at the start (beside the abstract or on page one). Some styles place it right after the title, before the abstract; CVPR papers sometimes do this. It is a matter of taste, and not everyone likes the before-abstract placement, but it exists.
+- Appear at the start (beside the abstract or on page one). Some styles place it right after the title, before the abstract; CVPR papers sometimes do this. It is a matter of taste, and not everyone likes the before-abstract placement, but it exists. You must always use the "beside the abstract" style, unless prompted otherwise.
 - Present results, quantitative and qualitative.
 - Show the central idea of the work, giving the reader an overview of how the method works before they reach the formal problem-definition section.
 - Visually convince the reader that the work is interesting and relevant. This is the most important job.

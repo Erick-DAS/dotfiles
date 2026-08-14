@@ -96,11 +96,9 @@ These are the fixes Andrew asks for most; treat each as a default, not a suggest
 The order of operations matters as much as the prose.
 
 1. **Results first.** Do not start writing until the experiments that confirm or refute the central claim exist (see principle 1).
-2. **Write small, then aggregate.** Compose and refine one short sentence at a time. Then place it among its neighbors (the i-1, i, i+1 window) and re-check that the ideas flow. Good flow is one of the hardest parts of writing, and it is the one place an LLM is least reliable, so do it by hand.
+2. **Write small, then aggregate.** Compose and refine one short sentence at a time. Then place it among its neighbors (the i-1, i, i+1 window) and re-check that the ideas flow.
 3. **Standardize as you go.** Format every reference the moment you add it (see the reference workflow in `references/general-checklist.md`). Standardizing incrementally keeps the whole bibliography consistent for free.
 4. **Re-check across the checklist.** Fixing one thing can break another: a sentence may read well in isolation but flow badly with its neighbors, so after any edit re-run the affected checks.
-5. **Rest, then reread.** Before circulating a draft for internal review, step away from the text for a day or two, then reread. Distance exposes problems you cannot see while still close to the writing. Then run the full checklist again.
-6. **Read widely.** Roughly one paper per day, read closely (not diagonally). You cannot tell whether your results corroborate or refute the literature, or whether your choices are supported, without knowing the literature.
 
 ## LLM confidentiality policy (read before reviewing anyone else's work)
 

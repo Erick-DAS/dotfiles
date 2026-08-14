@@ -43,13 +43,10 @@ A diagnostic (not foolproof): cast the three sentences as bullet points. If they
 
 ### Check grammar densely
 
-- Use tools (Grammarly, a translator) per sentence, not on long chunks; refresh the tool every 5 to 10 sentences, since quality degrades as you accumulate text.
 - Focus on writing and improving small sentences first, then aggregate them with the i-1, i, i+1 rule and recheck the flow.
 - The checklist items interact: fixing one can break another. After improving a sentence in isolation, re-check its flow with the neighbors; after any edit, re-run the affected checks.
 
 ### Using an LLM to refine
-
-You may use an LLM to **refine** sentences. Refine is not the same as write from scratch. A useful refine prompt: "Assume you are an author and/or editor for ICLR, ICML, and NeurIPS. I will give you some sentences and I need you to improve them. Avoid passive voice. Also check whether each sentence is clear and comprehensible."
 
 **Confidentiality.** You may use an LLM to polish your own review wording, but you must never show a paper you are **reviewing** to an LLM. ICLR, NeurIPS, and CVPR treat showing a submission to an LLM as a confidentiality violation that can ban a reviewer for up to two years. Polishing your own paper is fine; pasting someone else's submission is not.
 
@@ -93,6 +90,8 @@ Example of a clean conference entry (only the four standard tags):
 }
 ```
 
+Never use a different standard, unless the user the user explicitly tell you to. If the template being used presents a different standard, ask the user which one to use.
+
 ## Submission hygiene
 
 - Before sending to arXiv or camera-ready, make sure **all acknowledgments are inserted**. This is mandatory when the work is tied to funding agencies (FAPESP, CNPq, ...). When in doubt, ask the advisor whether an acknowledgment must be added; a missing one causes real headaches.
@@ -102,14 +101,6 @@ Example of a clean conference entry (only the four standard tags):
 
 - Confirm all earlier checklists were applied before circulating the draft. Reviewing a bad paper only improves it slightly, and internal review among coauthors is costly, so circulate the best possible version.
 - A well-polished paper makes the reviewer's job hard: they must find a *serious* flaw to justify rejection. Grammar errors, ugly figures, and rough flow are easy reasons to reject, so removing them forces a substantive review.
-- Rest, then reread. Step away from the text for a day or two before internal review; distance reveals problems you cannot see while close to it. Then run every checklist item once more.
-
-## Reading habits (so you can do the rest)
-
-- Read a lot: roughly one paper per day, regardless of whether you are an undergrad, master's, or PhD student.
-- Avoid diagonal reading; read carefully, noting details. You cannot tell which insights an experiment corroborates or refutes, or whether your evidence is supported by the literature, without knowing what the literature actually says.
-- Reading preference order: ICLR / NeurIPS, then ICML, then CVPR / PAMI, then ICCV.
-- For ICLR and NeurIPS papers, read the OpenReview: note the strengths and weaknesses reviewers raised (use them as motivation for your own contributions), see how authors argued back, and find technical discussion that appears nowhere else.
 
 ## What rejection looks like (real reviewer comments, OpenReview ICLR 2024)
 
