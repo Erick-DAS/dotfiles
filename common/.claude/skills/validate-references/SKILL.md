@@ -83,7 +83,9 @@ For each reference, search in this order and stop as soon as you have a confiden
 
 1. **Zotero** - the user's own library. A hit is authoritative about *filing* (the reference is already in the library) and gives you clean metadata plus, often, an attached PDF.
 2. **Local files** - the project directory: `.bib` and `.tex` files, and PDF folders next to the document (`pdfs/`, `papers/`, `references_pdfs/`, or whatever the project uses). A PDF on disk is the strongest possible evidence, since you can read the actual paper.
-3. **The web** - `web_search` / `web_fetch`, and the PubMed / Consensus MCPs when the field fits.
+3. **The web** - `web_search` / `web_fetch` against the indexes that actually cover this field: OpenReview, dblp, Semantic Scholar, Scopus, and the official proceedings sites (ACL Anthology, PMLR, `papers.nips.cc`, `openaccess.thecvf.com`, IEEE Xplore, ACM DL).
+
+**This skill's domain is AI/ML/DL research.** The references it validates come from international AI conferences and journals, so the authoritative record is OpenReview, Scopus, dblp, or a proceedings site.
 
 ### Do the Zotero pass in one sweep, not per reference
 
