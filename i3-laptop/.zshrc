@@ -141,9 +141,11 @@ export PATH="$PATH:/home/das/.local/bin"
 # LaTeX
 export PATH="$PATH:/usr/share/texlive"
 
-# fastfetch
-#fastfetch
+# AWS
+export AWS_PROFILE=data-eng
+export AWS_DEFAULT_REGION=us-east-1
 
+# fastfetch
 ff() {
   if (( ${COLUMNS:-$(tput cols)} < 100 )); then
     fastfetch --logo none
