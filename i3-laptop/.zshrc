@@ -138,19 +138,8 @@ eval "$(pyenv init - zsh)"
 # Created by `pipx` on 2025-07-16 13:06:02
 export PATH="$PATH:/home/das/.local/bin"
 
-# Claude Code accounts
-source "$HOME/.config/zsh/claude-accounts.zsh"
-
 # LaTeX
 export PATH="$PATH:/usr/share/texlive"
-
-# AWS
-export AWS_PROFILE=data-eng
-export AWS_DEFAULT_REGION=us-east-1
-
-# psql
-
-export PGSERVICE="dev_app"
 
 # fastfetch
 ff() {

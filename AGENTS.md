@@ -16,12 +16,10 @@ See `README.md` for the human-facing usage.
 - Never create symlinks into `$HOME` by hand; change files in a package and run `stow -R <packages>` (preview with `stow -n -v`).
 - The repo is **public**: no secrets, tokens, internal company details or machine state.
 
-## Claude Code setups
+## Claude Code
 
-- Two accounts, each with its own `CLAUDE_CONFIG_DIR`: `~/.claude-work` and `~/.claude-personal`.
-- Their tracked configs are `common/.claude-work` and `common/.claude-personal` (`CLAUDE.md` and `skills/`).
-  They started as copies and are meant to diverge, so change only the account the user asks about.
-- `claude-work` / `claude-personal` aliases and a guard that blocks a bare `claude` live in `common/.config/zsh/claude-accounts.zsh`, sourced by both `.zshrc` files.
-- `settings.json`, `.claude.json`, credentials and history are local to each machine and stay out of the repo (`settings.json` holds work-internal details).
-- Some skills are local-only and gitignored (see `.gitignore`); don't commit them.
-- `~/.claude-*` must be real dirs before stowing, or stow folds them into a symlink and Claude Code writes its state into the repo.
+- A single account on the default config dir `~/.claude` (no `CLAUDE_CONFIG_DIR`).
+- Its tracked config is `common/.claude` (`CLAUDE.md` and `skills/`).
+- `settings.json`, `~/.claude.json`, credentials and history are local to each machine and stay out of the repo.
+- `skills/synced` holds skills synced from claude.ai; it is gitignored, don't commit it.
+- `~/.claude` must be a real dir before stowing, or stow folds it into a symlink and Claude Code writes its state into the repo.
