@@ -13,6 +13,7 @@ These are common instructions for agents across all scenarios
   Instead, prefer quality, simplicity, robustness, scalability, and long term maintainability.
 - Don't ever do any testing or smoke testing without asking the user before.
 - Always reply the user with the language he is using, unless otherwise stated.
+- Never use the word clash. Prefer collision.
 
 ## Safety Guidelines
 

@@ -25,7 +25,7 @@ fi
 term_cmd='alacritty'
 file_cmd='thunar'
 text_cmd='geany'
-web_cmd='firefox'
+web_cmd='flatpak run app.zen_browser.zen'
 music_cmd='alacritty -e ncmpcpp'
 setting_cmd='xfce4-settings-manager'
 
